@@ -1,0 +1,8 @@
+button.primary {
+  background: dodgerblue;
+  border-radius: 10px;
+}
+
+button.secondary {
+  background: mediumseagreen;
+} 
