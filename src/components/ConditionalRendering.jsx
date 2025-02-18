@@ -8,12 +8,14 @@ function ConditionalRendering() {
   const updateLoginStatus = () => {
     setIsLoggedIn(!isLoggedIn);
   }
-  return <div>
+  return (
+    <div>
       <button onClick={updateLoginStatus}>Toggle Login Status</button>
       {
         isLoggedIn ? <Dashboard /> : <LoginForm />
       }
     </div>
+  )
 }
 
 export default ConditionalRendering;
